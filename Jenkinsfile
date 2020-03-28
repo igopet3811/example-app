@@ -6,7 +6,7 @@ node {
 	}
 
 	stage('Build image') {
-		app = docker.build('jenkins/example-app')
+		app = docker.build('igorescento/example-app')
 	}
 
 	stage('Push image') {
